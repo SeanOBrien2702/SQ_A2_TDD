@@ -1,0 +1,2 @@
+C:\Users\qball\OneDrive\SQ_A2_TDD-master\SQ_A2_TDD\SQ_A2_TDD.Test\obj\Debug\SQ_A2_TDD.Test.csprojAssemblyReference.cache
+C:\Users\qball\OneDrive\SQ_A2_TDD-master\SQ_A2_TDD\SQ_A2_TDD.Test\obj\Debug\SQ_A2_TDD.Test.csproj.CoreCompileInputs.cache
