@@ -10,7 +10,7 @@ namespace SQ_A2_TDD.Test
         [TestMethod]
         public void TestClassExist()
         {
-            var Triangle = new Triangle();
+            var Tri = new Triangle();
         }
     }
 }
