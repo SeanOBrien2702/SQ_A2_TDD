@@ -1,0 +1,9 @@
+C:\Users\qball\OneDrive\SQ_A2_TDD-master\SQ_A2_TDD\SQ_A2_TDD\bin\Debug\SQ_A2_TDD.exe.config
+C:\Users\qball\OneDrive\SQ_A2_TDD-master\SQ_A2_TDD\SQ_A2_TDD\bin\Debug\SQ_A2_TDD.exe
+C:\Users\qball\OneDrive\SQ_A2_TDD-master\SQ_A2_TDD\SQ_A2_TDD\bin\Debug\SQ_A2_TDD.pdb
+C:\Users\qball\OneDrive\SQ_A2_TDD-master\SQ_A2_TDD\SQ_A2_TDD\obj\Debug\SQ_A2_TDD.csprojAssemblyReference.cache
+C:\Users\qball\OneDrive\SQ_A2_TDD-master\SQ_A2_TDD\SQ_A2_TDD\obj\Debug\SQ_A2_TDD.Properties.Resources.resources
+C:\Users\qball\OneDrive\SQ_A2_TDD-master\SQ_A2_TDD\SQ_A2_TDD\obj\Debug\SQ_A2_TDD.csproj.GenerateResource.cache
+C:\Users\qball\OneDrive\SQ_A2_TDD-master\SQ_A2_TDD\SQ_A2_TDD\obj\Debug\SQ_A2_TDD.csproj.CoreCompileInputs.cache
+C:\Users\qball\OneDrive\SQ_A2_TDD-master\SQ_A2_TDD\SQ_A2_TDD\obj\Debug\SQ_A2_TDD.exe
+C:\Users\qball\OneDrive\SQ_A2_TDD-master\SQ_A2_TDD\SQ_A2_TDD\obj\Debug\SQ_A2_TDD.pdb
