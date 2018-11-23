@@ -26,7 +26,7 @@ namespace SQ_A2_TDD.Test
         public void TestAngleValid()
         {
             Triangle Tri = new Triangle();
-            bool test = Tri.validateAngles(10, 10, 10);
+            bool test = Tri.validateAngles(15, 150, 15);
             Assert.IsTrue(test);
         }
     }
