@@ -41,6 +41,17 @@ namespace SQ_A2_TDD.Test
             Assert.AreEqual(sum, 5);
         }
 
+        [TestMethod]
+        public void TestArea()
+        {
+            Triangle Tri = new Triangle();
+            double sum = Tri.getArea(7, 5);
+            Assert.AreEqual(sum, 17.5);
+
+            sum = Tri.getArea(9, 2);
+            Assert.AreEqual(sum, 9);
+        }
+
     }
 }
 
