@@ -51,15 +51,15 @@ namespace SQ_A2_TDD.Test
             sum = Tri.getArea(9, 2);
             Assert.AreEqual(sum, 9);
         }
-
+        [TestMethod]
         public void TestAngle()
         {
             Triangle Tri = new Triangle();
-            double sum = Tri.getAngle(20, 20);
-            Assert.AreEqual(sum, 60);
+            double sum = Tri.getAngle(100, 40);
+            Assert.AreEqual(sum, 40);
 
-            sum = Tri.getAngle(54, 32);
-            Assert.AreEqual(sum, 90);
+            sum = Tri.getAngle(55, 55);
+            Assert.AreEqual(sum, 70);
         }
 
     }
