@@ -21,5 +21,14 @@ namespace SQ_A2_TDD.Test
             bool test = Tri.validateLenth(10);      
             Assert.IsTrue(test);
         }
+
+        [TestMethod]
+        public void TestAngleValid()
+        {
+            Triangle Tri = new Triangle();
+            bool test = Tri.validateAngles(10, 10, 10);
+            Assert.IsTrue(test);
+        }
     }
 }
+
