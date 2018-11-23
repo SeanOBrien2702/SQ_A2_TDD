@@ -18,7 +18,7 @@ namespace SQ_A2_TDD.Test
         public void TestSideValid()
         {
             Triangle Tri = new Triangle();
-            bool test = Tri.validateLenth(-5);      
+            bool test = Tri.validateLenth(10);      
             Assert.IsTrue(test);
         }
     }
