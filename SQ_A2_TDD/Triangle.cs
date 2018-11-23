@@ -57,5 +57,11 @@ namespace SQ_A2_TDD
             answer = Math.Round(answer, 3, MidpointRounding.AwayFromZero);
             return answer;
         }
+        public double getArea(int SideA, int SideB)
+        {
+            double answer = (SideA * SideB * 0.5);
+            answer = Math.Round(answer, 3, MidpointRounding.AwayFromZero);
+            return answer;
+        }
     }
 }
