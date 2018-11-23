@@ -7,3 +7,4 @@ C:\Users\qball\OneDrive\SQ_A2_TDD-master\SQ_A2_TDD\SQ_A2_TDD\obj\Debug\SQ_A2_TDD
 C:\Users\qball\OneDrive\SQ_A2_TDD-master\SQ_A2_TDD\SQ_A2_TDD\obj\Debug\SQ_A2_TDD.csproj.CoreCompileInputs.cache
 C:\Users\qball\OneDrive\SQ_A2_TDD-master\SQ_A2_TDD\SQ_A2_TDD\obj\Debug\SQ_A2_TDD.exe
 C:\Users\qball\OneDrive\SQ_A2_TDD-master\SQ_A2_TDD\SQ_A2_TDD\obj\Debug\SQ_A2_TDD.pdb
+C:\Users\qball\OneDrive\SQ_A2_TDD-master\SQ_A2_TDD\SQ_A2_TDD\obj\Debug\SQ_A2_TDD.Form1.resources
