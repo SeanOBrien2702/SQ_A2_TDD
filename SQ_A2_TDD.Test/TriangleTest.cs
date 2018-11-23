@@ -34,11 +34,11 @@ namespace SQ_A2_TDD.Test
         public void TestHypotenuse()
         {
             Triangle Tri = new Triangle();
-            int sum = Tri.getHpotenuse(4, 6);
-            Assert.Equals(sum, 10);
+            double sum = Tri.getHypotenuse(4, 6);
+            Assert.AreEqual(sum, 7.211);
 
-            sum = Tri.getHypotenuse(9, 12);
-            Assert.Equals(sum, 20);
+            sum = Tri.getHypotenuse(3, 4);
+            Assert.AreEqual(sum, 5);
         }
 
     }
