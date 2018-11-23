@@ -28,21 +28,22 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtSideA = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtSideB = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
+            this.lbSideC = new System.Windows.Forms.Label();
+            this.btnHypo = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // textBox1
+            // txtSideA
             // 
-            this.textBox1.Location = new System.Drawing.Point(114, 46);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 0;
+            this.txtSideA.Location = new System.Drawing.Point(114, 46);
+            this.txtSideA.Name = "txtSideA";
+            this.txtSideA.Size = new System.Drawing.Size(100, 20);
+            this.txtSideA.TabIndex = 0;
             // 
             // label1
             // 
@@ -62,12 +63,12 @@
             this.label2.TabIndex = 2;
             this.label2.Text = "Side B";
             // 
-            // textBox2
+            // txtSideB
             // 
-            this.textBox2.Location = new System.Drawing.Point(114, 110);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 3;
+            this.txtSideB.Location = new System.Drawing.Point(114, 110);
+            this.txtSideB.Name = "txtSideB";
+            this.txtSideB.Size = new System.Drawing.Size(100, 20);
+            this.txtSideB.TabIndex = 3;
             // 
             // button1
             // 
@@ -88,27 +89,39 @@
             this.label3.TabIndex = 5;
             this.label3.Text = "Side C";
             // 
-            // label4
+            // lbSideC
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(123, 185);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(36, 13);
-            this.label4.TabIndex = 6;
-            this.label4.Text = "length";
+            this.lbSideC.AutoSize = true;
+            this.lbSideC.ForeColor = System.Drawing.Color.Cornsilk;
+            this.lbSideC.Location = new System.Drawing.Point(123, 185);
+            this.lbSideC.Name = "lbSideC";
+            this.lbSideC.Size = new System.Drawing.Size(36, 13);
+            this.lbSideC.TabIndex = 6;
+            this.lbSideC.Text = "length";
+            // 
+            // btnHypo
+            // 
+            this.btnHypo.Location = new System.Drawing.Point(188, 238);
+            this.btnHypo.Name = "btnHypo";
+            this.btnHypo.Size = new System.Drawing.Size(144, 23);
+            this.btnHypo.TabIndex = 7;
+            this.btnHypo.Text = "Calaculate Hypotenuse";
+            this.btnHypo.UseVisualStyleBackColor = true;
+            this.btnHypo.Click += new System.EventHandler(this.btnHypo_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(353, 387);
-            this.Controls.Add(this.label4);
+            this.ClientSize = new System.Drawing.Size(582, 450);
+            this.Controls.Add(this.btnHypo);
+            this.Controls.Add(this.lbSideC);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.txtSideB);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtSideA);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -118,13 +131,14 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtSideA;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtSideB;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label lbSideC;
+        private System.Windows.Forms.Button btnHypo;
     }
 }
 

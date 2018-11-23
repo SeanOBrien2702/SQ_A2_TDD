@@ -18,11 +18,22 @@ namespace SQ_A2_TDD
         public Form1()
         {
             InitializeComponent();
+            //Triangle Tri = new Triangle();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
 
         }
+
+        private void btnHypo_Click(object sender, EventArgs e)
+        {
+            Triangle Tri = new Triangle();
+
+            double sum = Tri.getHypotenuse(Int32.Parse(txtSideA.Text), Int32.Parse(txtSideB.Text));
+            lbSideC.Text = sum.ToString();
+        }
+
     }
+    
 }

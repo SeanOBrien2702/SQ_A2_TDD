@@ -29,6 +29,18 @@ namespace SQ_A2_TDD.Test
             bool test = Tri.validateAngles(15, 150, 15);
             Assert.IsTrue(test);
         }
+
+        [TestMethod]
+        public void TestHypotenuse()
+        {
+            Triangle Tri = new Triangle();
+            double sum = Tri.getHypotenuse(4, 6);
+            Assert.AreEqual(sum, 7.211);
+
+            sum = Tri.getHypotenuse(3, 4);
+            Assert.AreEqual(sum, 5);
+        }
+
     }
 }
 
