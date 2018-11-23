@@ -63,5 +63,18 @@ namespace SQ_A2_TDD
             answer = Math.Round(answer, 3, MidpointRounding.AwayFromZero);
             return answer;
         }
+
+        public int getAngle(int angleA, int angleB)
+        {
+            int answer = 180 - (angleA + angleB);
+            if (!validateAngles(answer, angleA, angleB))
+            {
+                answer = 0;
+            }
+            return answer;
+        }
+
+
+
     }
 }
