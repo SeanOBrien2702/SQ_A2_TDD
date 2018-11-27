@@ -43,7 +43,6 @@
             this.btnAngle = new System.Windows.Forms.Button();
             this.lbAngleC = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.lbError = new System.Windows.Forms.Label();
             this.lbArea = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.SuspendLayout();
@@ -82,7 +81,7 @@
             // 
             // btnArea
             // 
-            this.btnArea.Location = new System.Drawing.Point(47, 294);
+            this.btnArea.Location = new System.Drawing.Point(47, 307);
             this.btnArea.Name = "btnArea";
             this.btnArea.Size = new System.Drawing.Size(75, 23);
             this.btnArea.TabIndex = 4;
@@ -93,7 +92,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(44, 185);
+            this.label3.Location = new System.Drawing.Point(44, 177);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(38, 13);
             this.label3.TabIndex = 5;
@@ -105,13 +104,12 @@
             this.lbSideC.ForeColor = System.Drawing.Color.Black;
             this.lbSideC.Location = new System.Drawing.Point(121, 185);
             this.lbSideC.Name = "lbSideC";
-            this.lbSideC.Size = new System.Drawing.Size(36, 13);
+            this.lbSideC.Size = new System.Drawing.Size(0, 13);
             this.lbSideC.TabIndex = 6;
-            this.lbSideC.Text = "length";
             // 
             // btnHypo
             // 
-            this.btnHypo.Location = new System.Drawing.Point(47, 237);
+            this.btnHypo.Location = new System.Drawing.Point(69, 237);
             this.btnHypo.Name = "btnHypo";
             this.btnHypo.Size = new System.Drawing.Size(144, 23);
             this.btnHypo.TabIndex = 7;
@@ -122,7 +120,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(334, 54);
+            this.label4.Location = new System.Drawing.Point(322, 54);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(44, 13);
             this.label4.TabIndex = 8;
@@ -131,7 +129,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(334, 121);
+            this.label5.Location = new System.Drawing.Point(322, 117);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(44, 13);
             this.label5.TabIndex = 9;
@@ -139,21 +137,21 @@
             // 
             // txtAngleA
             // 
-            this.txtAngleA.Location = new System.Drawing.Point(228, 51);
+            this.txtAngleA.Location = new System.Drawing.Point(216, 51);
             this.txtAngleA.Name = "txtAngleA";
             this.txtAngleA.Size = new System.Drawing.Size(100, 20);
             this.txtAngleA.TabIndex = 10;
             // 
             // txtAngleB
             // 
-            this.txtAngleB.Location = new System.Drawing.Point(228, 118);
+            this.txtAngleB.Location = new System.Drawing.Point(216, 114);
             this.txtAngleB.Name = "txtAngleB";
             this.txtAngleB.Size = new System.Drawing.Size(100, 20);
             this.txtAngleB.TabIndex = 11;
             // 
             // btnAngle
             // 
-            this.btnAngle.Location = new System.Drawing.Point(228, 237);
+            this.btnAngle.Location = new System.Drawing.Point(241, 237);
             this.btnAngle.Name = "btnAngle";
             this.btnAngle.Size = new System.Drawing.Size(75, 23);
             this.btnAngle.TabIndex = 12;
@@ -164,47 +162,33 @@
             // lbAngleC
             // 
             this.lbAngleC.AutoSize = true;
-            this.lbAngleC.Location = new System.Drawing.Point(251, 186);
+            this.lbAngleC.Location = new System.Drawing.Point(249, 177);
             this.lbAngleC.Name = "lbAngleC";
-            this.lbAngleC.Size = new System.Drawing.Size(34, 13);
+            this.lbAngleC.Size = new System.Drawing.Size(0, 13);
             this.lbAngleC.TabIndex = 13;
-            this.lbAngleC.Text = "Angle";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(334, 185);
+            this.label7.Location = new System.Drawing.Point(322, 177);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(44, 13);
             this.label7.TabIndex = 14;
             this.label7.Text = "Angle C";
             // 
-            // lbError
-            // 
-            this.lbError.AutoSize = true;
-            this.lbError.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.lbError.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbError.ForeColor = System.Drawing.Color.Red;
-            this.lbError.Location = new System.Drawing.Point(47, 341);
-            this.lbError.Name = "lbError";
-            this.lbError.Size = new System.Drawing.Size(51, 20);
-            this.lbError.TabIndex = 15;
-            this.lbError.Text = "label6";
-            // 
             // lbArea
             // 
             this.lbArea.AutoSize = true;
             this.lbArea.ForeColor = System.Drawing.Color.Black;
-            this.lbArea.Location = new System.Drawing.Point(178, 299);
+            this.lbArea.Location = new System.Drawing.Point(178, 312);
             this.lbArea.Name = "lbArea";
-            this.lbArea.Size = new System.Drawing.Size(10, 13);
+            this.lbArea.Size = new System.Drawing.Size(0, 13);
             this.lbArea.TabIndex = 17;
-            this.lbArea.Text = ":";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(140, 299);
+            this.label8.Location = new System.Drawing.Point(140, 312);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(29, 13);
             this.label8.TabIndex = 16;
@@ -214,10 +198,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(428, 397);
+            this.ClientSize = new System.Drawing.Size(428, 359);
             this.Controls.Add(this.lbArea);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.lbError);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.lbAngleC);
             this.Controls.Add(this.btnAngle);
@@ -234,7 +217,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtSideA);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "SQ Assingment 2 TDD";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -257,7 +240,6 @@
         private System.Windows.Forms.Button btnAngle;
         private System.Windows.Forms.Label lbAngleC;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label lbError;
         private System.Windows.Forms.Label lbArea;
         private System.Windows.Forms.Label label8;
     }

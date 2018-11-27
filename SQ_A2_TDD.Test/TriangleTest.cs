@@ -1,7 +1,12 @@
-﻿using System;
+﻿/*
+*  FILE          : TriangleTest.cs
+*  PROJECT       : SQ Assignment 2 TDD
+*  PROGRAMMER    : Sean O'Brien
+*  FIRST VERSION : 2018-11-22
+*  DESCRIPTION   : This file contains all of the test used to ensure the quality 
+*                  uints in the SQ_A2_TDD project.
+*/
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using SQ_A2_TDD;
-using System.Text.RegularExpressions;
 
 namespace SQ_A2_TDD.Test
 {
